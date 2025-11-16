@@ -10,8 +10,22 @@
       <span id="txtOut" style="white-space: nowrap"></span>
     </div>
     <ol>
-      <li>[Write the question here, and copy this for more questions]</li>
-      <p>[Write your answer here, and copy this for more answers]</p>
+      <li>What is an array? A short and concise answer is expected here!</li>
+      <p>An array is an ordered collection of elements that can be accessed by their index. It allows storing multiple values in a single variable.</p>
+      <li>What does it mean to "hardcode" when we talk about programming? (In English, it's called "hard coding", "hard-coding", or "hardcoding").</li>
+      <p>Hardcoding means embedding fixed values directly into the program instead of using variables, inputs, or data from external sources.</p>
+      <li>Explain in plain text what happens in task 3, and how we can traverse (iterate) the array when we (humans) don't "know" how long the array is.</li>
+      <p>In task 3, we process all elements of an array without knowing its length in advance. We traverse it using loops (like for, for-of, or while) that automatically iterate from the first to the last element.</p>
+      <li>Why is it beneficial to store instances of a class in arrays, as in task 4?</li>
+      <p>Storing instances in arrays allows group operations, such as iterating, sorting, or filtering all objects efficiently. It also makes management and access of multiple similar objects easy.</p>
+      <li>Try your best to explain the EWeekDays object from task 7. How do we use the "value" attribute, for example? In what way do "WeekDay", "Workdays", and "Weekends" differ from each other? If we wanted to create a new element "WorkoutDays", which would contain "Monday", "Wednesday", and "Thursday", how would it ideally look?</li>
+      <p>EWeekDays represents weekdays with structured properties. The "value" attribute can represent an index or a numeric code for the day. "WeekDay" contains all seven days, "Workdays" only Monday to Friday, "Weekends" Saturday and Sunday. A new "WorkoutDays" element containing Monday, Wednesday, and Thursday could be defined as a separate array of selected weekdays.</p>
+      <li>In task 8, we will use a "callback" routine when sorting. Explain how such a "callback" routine works.</li>
+      <p>A callback in sorting is a function passed to the sort method. It receives two elements at a time and returns a number indicating their order: negative if the first should come before the second, positive if after, and zero if equal.</p>
+      <li>What happens in the sorting routines you have created? Try to explain how the array can figure out if an element should come before or after another. The best way to answer this is to actually print both parameters each time the sorting routine runs.</li>
+      <p>During sorting, the array repeatedly compares pairs of elements using the callback. The return value tells the algorithm whether to swap the elements or keep them in place. Printing both parameters shows the comparison process in action.</p>
+      <li>In task 10, we will create an array with rows and columns. Explain what the first element of the array contains</li>
+      <p>The first element of a 2D array is typically the first row, which itself is an array containing the elements of that row (i.e., all the columns of the first row).</p>
     </ol>
     <script type="module" src="./task_4-2.mjs" defer></script>
   </body>
